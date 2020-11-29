@@ -4,7 +4,7 @@ Este es mi portafolio que he creado gracias a los conocimientos adquiridos en la
 
 >Mi portafolio es lo que me hacia falta para poder darme a conocer al mundo a través de la publicación de  mis proyectos y experiencias con la ayuda de GitHubPages
 
-###Con la construcción del proyecto aprendí:
+##Con la construcción del proyecto aprendí:
 - Dominar HTML y su estructura.
 - Definir la estructura de un sitio web.
 - Implementar formulario en HTML
