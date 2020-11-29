@@ -1,16 +1,14 @@
-### Hi there 👋
+# Mi sitio web Personal 📝
 
-<!--
-**ergalez/ergalez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Este es mi portafolio que he creado gracias a los conocimientos adquiridos en la universidad y a través del curso de [Desarrollo Web Online](http://https://platzi.com/cursos/html5-css3/ "Desarrollo Web Online") de [Platzi.](http://platzi.com "Platzi.") .
 
-Here are some ideas to get you started:
+>Mi portafolio es lo que me hacia falta para poder darme a conocer al mundo a través de la publicación de  mis proyectos y experiencias con la ayuda de GitHubPages
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+###Con la construcción del proyecto aprendí:
+- Dominar HTML y su estructura.
+- Definir la estructura de un sitio web.
+- Implementar formulario en HTML
+- Crear Sitios Web estáticos con HTML y CSS3.
+- Crear layouts con Flexbox.
+- Aplicar estilos con CSS.
+- Poner en práctica el sistema de control de versiones de Git y GitHub.
