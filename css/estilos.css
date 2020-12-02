@@ -18,7 +18,7 @@ h1 {
     font-size: 40px;
     letter-spacing: -.2px;
     color: white;
-    margin: 150px 150px 70px 30px;
+    margin: 0;
     /* text-transform: uppercase; */
     /* text-decoration: underline ; */
 }
@@ -27,6 +27,47 @@ h1 strong{
     color: #026fff;
 }
 
+h2 {
+    margin-bottom: 40px;
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ol,ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.project-title {
+    font-size: 30px;
+    margin-top:0;
+    margin-bottom: 10px;
+}
+
+.project-course {
+    margin: 10px 0;
+}
+.project-date{
+    margin: 10px 0;
+}
+.project-url{
+    margin: 10px 0;
+}
+.project-description {
+    font-size: 20px;
+}
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+}
 .project-details {
     width: 500px;
 }
@@ -40,10 +81,13 @@ h1 strong{
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio {
     background: #FAFAFA;
+    padding: 20px;
 }
 
 .project{
@@ -56,28 +100,53 @@ h1 strong{
     border-width: 15px;
     border-style: solid; */
     border: 1px solid gray;
-    margin:10px;
     border-radius: 10px;
     margin-bottom: 15px;
     padding:20px;
     background:white;
     display: flex;
+    align-items: vertical;
+    justify-content: space-between;
 }
 
 .header {
     background-color: #1b2127;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
 }
 
 .header a {
     color:white;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .flexbox {
     display: flex;
     /* flex-direction: column */
     flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
 }
 
 .box {
@@ -86,8 +155,25 @@ h1 strong{
     border: 1px solid red;
     flex-shrink: 0;
     margin: 5px;
+    
 }
 
 /* Gris oscuro:= #1d252c */
 /* gris claro = #626262 */
 /* background gris = #1b2127 */
+
+.footer{
+    background-color:#1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+.footer a {
+    color: white;
+}
+
