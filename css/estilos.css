@@ -309,3 +309,7 @@ figure {
     flex-wrap: inherit;
 }
 
+.correo {
+    text-decoration: none;
+    color: white;
+}
