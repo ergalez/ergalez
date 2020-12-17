@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <i class="icon-menu"></i>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
     <header class="header">
         <div class="container">
             <!--es la etiqueta que se encarga de hacer la cabecera-->
@@ -191,6 +191,35 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        console.log('Hola Mundo!, es mi primera linea en JS')
+
+        const ipad=window.matchMedia('screen and (max-width: 767px)'); //va a recibir una cosulta a los medios
+        const menu = document.querySelector('.menu'); //para guardar el elemento de la navbar en una variable
+        const burgerButton =document.querySelector('#burger-menu'); //una variable para guardar el menu de hamburguesa
+
+
+
+        ipad.addListener(validation);
+        
+
+        function validation(event){
+            if(event.matches){
+                burgerButton.addEventListener('click', hideShow); //cuando haga click en el elemento, mandamos a llamar la funcion
+            }else{
+                burgerButton.removeEventListener('click', hideShow); //cuando haga click en el elemento, mandamos a llamar la funcion
+            }
+        }
+        validation(ipad);
+
+        function hideShow(){ // Función que le agrega la clase y le quita la clase al menu //
+        if (menu.classList.contains('is-active')){
+            menu.classList.remove('is-active')
+        }else{
+        menu.classList.add('is-active');
+            }
+        }
+    </script>
 </body>
 
 </html>
